@@ -1,0 +1,17 @@
+package reto04;
+
+public class reto04 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String nombre = "Meta AI";
+        String direccion = "Calle Ficticia 123";
+        String telefono = "1234567890";
+
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Direccion: " + direccion);
+        System.out.println("Telefono: " + telefono);
+
+	}
+
+}
