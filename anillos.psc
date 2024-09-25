@@ -14,7 +14,8 @@ Algoritmo anillos
 	totalanillos <- total_anillos - anillo_sauron
 	Para anilloselfos <- 1 Hasta totalanillos Con Paso 2 Hacer
         Para anillos_enanos <- 2 Hasta totalanillos Con Paso 1 Hacer
-            Si es_primo(anillosenanos) Entonces
+            Si es_primo
+				Leer anillosenanoEntonces
 				Imprimir  anilloshombres <- totalanillos - anillos_elfos - anillosenanos
                 Si anillos_hombres >= 0 Y anillos_hombres MOD 2 = 0 Entonces
                     Escribir "Reparto encontrado:"
@@ -37,30 +38,3 @@ Algoritmo anillos
     FinSi
 	
 FinAlgoritmo
-Funciones_primorimo,(numero Como Entero) Como Logico
-	Definir i Como Entero
-	
-	Si numero <= 1 Entonces
-		Imprimir  Devolver Falso
-	FinSi
-	
-	Si numero = 2 Entonces
-		Imprimir Devolver Verdadero
-	FinSi
-    
-	Si numero MOD 2 = 0 Entonces
-		Imprimir Devolver Falso
-	FinSi
-    
-	Para i <- 3 Hasta Raiz(numero) Con Paso 2 Hacer
-		Si numero MOD i = 0 Entonces
-			Imprimir Devolver Falso
-		FinSi
-		
-		Imprimir Devolver Verdadero
-	FinPara
-FinAlgoritmo
-	
-	
-	
-	
